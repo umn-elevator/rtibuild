@@ -1,0 +1,5 @@
+#!/bin/bash
+/usr/bin/xvfb-run /usr/local/bin/webGLRtiMaker $@
+exit_value=$?
+exit $exit_value
+
